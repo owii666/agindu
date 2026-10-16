@@ -1,0 +1,46 @@
+<?php
+/**
+ * AGINDU - English Language Translations
+ */
+
+return [
+    'verified_by_agindu'    => 'Verified by AGINDU',
+    'verified_subtitle'     => 'Authentic Indonesian Agri-Product Supply Chain Certificate',
+    'batch_code'            => 'Batch Code',
+    'commodity'             => 'Commodity',
+    'producer'              => 'Producer / Exporter',
+    'origin'                => 'Region of Origin',
+    'harvest_date'          => 'Harvest Date',
+    'destination'           => 'Destination Country',
+    'volume'                => 'Export Volume',
+    'status'                => 'Current Status',
+    'cold_chain'            => 'Cold Chain & Temperature Monitoring',
+    'latest_reading'        => 'Latest Reading',
+    'safe_range'            => 'Optimal Temperature Range',
+    'condition'             => 'Thermal Condition',
+    'condition_normal'      => 'Normal & Optimal',
+    'condition_warning'     => 'Warning - Approaching Limit',
+    'condition_danger'      => 'Critical - Out of Range',
+    'condition_nodata'      => 'No sensor readings recorded yet',
+    'journey_timeline'      => 'Supply Chain Journey Timeline',
+    'no_timeline'           => 'No checkpoint events recorded yet.',
+    'public_note'           => 'This public traceability passport is cryptographically linked to the official AGINDU export register. Proprietary business data, financial records, and personal contact details are protected and excluded.',
+    'status_draft'          => 'Registered',
+    'status_processing'     => 'Processing & Sorting',
+    'status_packed'         => 'Packaged',
+    'status_in_transit'     => 'In Transit (Logistics)',
+    'status_shipped'        => 'Shipped & Exported',
+    'status_arrived'        => 'Arrived at Destination',
+    'status_completed'      => 'Completed & Verified',
+    'event_harvest'         => 'Harvest & Collection',
+    'event_sorting'         => 'Grading & Quality Sorting',
+    'event_packaging'       => 'Export Packaging & Labeling',
+    'event_warehouse'       => 'Cold Storage / Warehousing',
+    'event_port'            => 'Port of Loading & Customs Clearance',
+    'event_shipping'        => 'Vessel Departure & Ocean Freight',
+    'event_arrival'         => 'Port of Discharge & Final Inspection',
+    'switch_lang_id'        => 'Bahasa Indonesia',
+    'switch_lang_en'        => 'English',
+    'language'              => 'Language',
+    'back_to_top'           => 'Back to Top'
+];

@@ -1,0 +1,46 @@
+<?php
+/**
+ * AGINDU - Terjemahan Bahasa Indonesia
+ */
+
+return [
+    'verified_by_agindu'    => 'Terverifikasi oleh AGINDU',
+    'verified_subtitle'     => 'Sertifikat Ketertelusuran Rantai Pasok Agribisnis Indonesia',
+    'batch_code'            => 'Kode Batch',
+    'commodity'             => 'Komoditas',
+    'producer'              => 'Produsen / Eksportir',
+    'origin'                => 'Asal Daerah',
+    'harvest_date'          => 'Tanggal Panen',
+    'destination'           => 'Negara Tujuan',
+    'volume'                => 'Volume Ekspor',
+    'status'                => 'Status Terkini',
+    'cold_chain'            => 'Pemantauan Rantai Dingin & Suhu',
+    'latest_reading'        => 'Pembacaan Terakhir',
+    'safe_range'            => 'Rentang Suhu Optimal',
+    'condition'             => 'Kondisi Termal',
+    'condition_normal'      => 'Normal & Optimal',
+    'condition_warning'     => 'Waspada - Mendekati Batas',
+    'condition_danger'      => 'Kritis - Di Luar Batas',
+    'condition_nodata'      => 'Belum ada pembacaan sensor',
+    'journey_timeline'      => 'Linimasa Perjalanan Rantai Pasok',
+    'no_timeline'           => 'Belum ada rekaman titik pemeriksaan.',
+    'public_note'           => 'Paspor ketertelusuran publik ini terhubung secara kriptografis dengan registri ekspor resmi AGINDU. Rincian bisnis rahasia, catatan harga, dan kontak pribadi dilindungi dan tidak ditampilkan.',
+    'status_draft'          => 'Terdaftar',
+    'status_processing'     => 'Pemrosesan & Sortir',
+    'status_packed'         => 'Dikemas',
+    'status_in_transit'     => 'Dalam Perjalanan (Logistik)',
+    'status_shipped'        => 'Terkirim & Dikapalkan',
+    'status_arrived'        => 'Tiba di Negara Tujuan',
+    'status_completed'      => 'Selesai & Terverifikasi',
+    'event_harvest'         => 'Panen & Pengumpulan',
+    'event_sorting'         => 'Grading & Sortir Kualitas',
+    'event_packaging'       => 'Pengemasan Ekspor & Labeling',
+    'event_warehouse'       => 'Penyimpanan Cold Storage / Gudang',
+    'event_port'            => 'Pelabuhan Muat & Pemeriksaan Bea Cukai',
+    'event_shipping'        => 'Keberangkatan Kapal / Kargo Udara',
+    'event_arrival'         => 'Pelabuhan Bongkar & Inspeksi Akhir',
+    'switch_lang_id'        => 'Bahasa Indonesia',
+    'switch_lang_en'        => 'English',
+    'language'              => 'Bahasa',
+    'back_to_top'           => 'Kembali ke Atas'
+];

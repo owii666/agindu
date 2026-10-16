@@ -1,0 +1,335 @@
+/**
+ * AGINDU - Public Traceability Passport CSS
+ * Mobile-First, Fast Loading, Corporate Verification Design
+ */
+
+:root {
+    --green: #176b45;
+    --green2: #23865a;
+    --lime: #d9ef9b;
+    --ink: #172820;
+    --muted: #6b7b71;
+    --paper: #f5f8f2;
+    --line: #e4ebe2;
+    --white: #ffffff;
+    --amber: #f3b544;
+    --danger: #b3402f;
+
+    --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-sans);
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--ink);
+    background-color: var(--paper);
+    -webkit-font-smoothing: antialiased;
+    padding: 16px 12px 40px;
+}
+
+.trace-container {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+/* Header & Verified Badge */
+.trace-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.brand-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--white);
+    border: 1px solid var(--line);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: var(--green);
+    margin-bottom: 12px;
+    box-shadow: 0 1px 3px rgba(23,40,32,0.05);
+}
+
+.verified-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: var(--lime);
+    color: #153e28;
+    padding: 5px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin-bottom: 6px;
+}
+
+.trace-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.3;
+    margin-bottom: 4px;
+}
+
+.trace-subtitle {
+    font-size: 12px;
+    color: var(--muted);
+}
+
+/* Language Switcher */
+.lang-switcher {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.lang-btn {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    background: var(--white);
+    color: var(--muted);
+    text-decoration: none;
+}
+
+.lang-btn.active {
+    background: var(--green);
+    color: var(--white);
+    border-color: var(--green);
+}
+
+/* Card */
+.trace-card {
+    background-color: var(--white);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(23, 40, 32, 0.04);
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.card-top-bar {
+    background-color: var(--green);
+    height: 4px;
+}
+
+.trace-card-content {
+    padding: 18px;
+}
+
+.section-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--muted);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Info Grid */
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 12px;
+}
+
+.info-item.full-width {
+    grid-column: span 2;
+}
+
+.info-key {
+    font-size: 11.5px;
+    color: var(--muted);
+    margin-bottom: 2px;
+}
+
+.info-val {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--ink);
+}
+
+.info-val.mono {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--green);
+    word-break: break-all;
+}
+
+/* Status Pill */
+.status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Temperature Card */
+.temp-gauge-box {
+    background: #fafcf9;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 14px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.temp-gauge-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.temp-huge {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.1;
+}
+
+.temp-range-text {
+    font-size: 11.5px;
+    color: var(--muted);
+    margin-top: 4px;
+}
+
+.temp-status-tag {
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 11.5px;
+    font-weight: 600;
+}
+
+.temp-status-tag.normal {
+    background-color: var(--lime);
+    color: #17422b;
+}
+
+.temp-status-tag.warning {
+    background-color: #fff4d9;
+    color: #8c5b00;
+}
+
+.temp-status-tag.danger {
+    background-color: #fdf2f0;
+    color: var(--danger);
+}
+
+/* Public Timeline */
+.public-timeline {
+    position: relative;
+    padding-left: 24px;
+    margin-top: 8px;
+}
+
+.public-timeline::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 6px;
+    bottom: 6px;
+    width: 2px;
+    background-color: var(--line);
+}
+
+.timeline-step {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.timeline-step:last-child {
+    margin-bottom: 0;
+}
+
+.step-marker {
+    position: absolute;
+    left: -24px;
+    top: 4px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: 2px solid var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-marker.active {
+    background-color: var(--green);
+}
+
+.step-marker.active::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+
+.step-content {
+    background-color: #fafcf9;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 10px 12px;
+}
+
+.step-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+}
+
+.step-location {
+    font-size: 11.5px;
+    color: var(--muted);
+    margin-top: 2px;
+}
+
+.step-time {
+    font-size: 11px;
+    color: #88998e;
+    margin-top: 2px;
+}
+
+/* Footer & Notice */
+.trace-footer {
+    text-align: center;
+    padding: 16px 12px;
+    font-size: 11.5px;
+    color: var(--muted);
+    line-height: 1.5;
+}
+
+.security-seal {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--green);
+    margin-bottom: 8px;
+}
